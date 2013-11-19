@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="example-app">
+  <head>
+    <meta charset="utf-8" />
+    <title>angular-floating-label example</title>
+    <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 2px solid #b2b2b2;
+      outline: 0;
+    }
+
+    label {
+      padding-left: 10px;
+      font-size: 11px;
+      color: #b2b2b2;
+      font-weight: bold;
+    }
+
+    label.floatingLabel-focus {
+      color: #007fd5;
+    }
+    </style>
+    <script src="../bower_components/jquery/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/floating-label/dist/floating-label.js"></script>
+    <script src="../dist/angular-floating-label.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+
+    <div ng-controller="MainController">
+      <form>
+        <p><input floating-label type="text" placeholder="First Name" id="first-name"></p>
+        <p><label for="last-name">Last Name</label><input floating-label type="text" placeholder="Last Name" id="last-name"></p>
+        <p><textarea floating-label placeholder="Address" id="address"></textarea></p>
+        <p><input type="text" value="blank" /></p>
+      </form>
+    </div>
+  </body>
+</html>

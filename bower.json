@@ -1,0 +1,25 @@
+{
+  "name": "angular-floating-label",
+  "description": "Angular directive for floating-label",
+  "version": "0.1.0",
+  "homepage": "",
+  "license": "MIT",
+  "copyright": "First + Third",
+  "main": "dist/angular-floating-label.js",
+  "dependencies": {
+    "floating-label": "~0.1.0",
+    "angular": "~1.2.1"
+  },
+  "devDependencies": {
+    "assert": "*",
+    "blanket": "*"
+  },
+  "ignore": [
+    "test",
+    "example",
+    "lib",
+    "Gruntfile.js",
+    "package.json",
+    "grunt"
+  ]
+}

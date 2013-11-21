@@ -2,4 +2,6 @@
 node_modules
 bower_components
 reports
+.grunt
+dist
 dist/_bower.js

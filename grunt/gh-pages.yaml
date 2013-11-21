@@ -1,0 +1,7 @@
+options:
+  base: '.'
+  branch: 'gh-pages'
+src:
+  - 'dist/**/*.js'
+  - 'example/**/*.*'
+  - 'bower_components/**/*.*'

@@ -38,9 +38,9 @@
 
     <div ng-controller="MainController">
       <form>
-        <p><input floating-label type="text" placeholder="First Name" id="first-name"></p>
-        <p><label for="last-name">Last Name</label><input floating-label type="text" placeholder="Last Name" id="last-name"></p>
-        <p><textarea floating-label placeholder="Address" id="address"></textarea></p>
+        <p><input floating-label type="text" placeholder="First name" id="first-name" ng-model="firstName"></p>
+        <p><label for="last-name">Last Name</label><input floating-label type="text" placeholder="Last Name" id="last-name" ng-model="lastName"></p>
+        <p><textarea floating-label placeholder="Address for {{firstName}} {{lastName}}" id="address"></textarea></p>
         <p><input type="text" value="blank" /></p>
       </form>
     </div>
